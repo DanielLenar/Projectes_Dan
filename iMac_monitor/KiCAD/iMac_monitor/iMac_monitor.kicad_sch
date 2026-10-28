@@ -4294,6 +4294,26 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 82.55) (xy 298.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe268ab-60a1-4f27-8da3-ed717c56008d")
+	)
+	(wire
+		(pts
+			(xy 295.91 82.55) (xy 298.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13d071a0-5c6d-415f-902c-84d33e5b0bb6")
+	)
+	(wire
+		(pts
 			(xy 35.56 132.08) (xy 44.45 132.08)
 		)
 		(stroke
@@ -7079,6 +7099,84 @@
 			(project "iMac_monitor"
 				(path "/b2252698-946e-4a33-bee4-5f89b222af6f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 298.45 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0637a29-58b9-4079-a872-dfa5b2a6f894")
+		(property "Reference" "#PWR014"
+			(at 298.45 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 298.45 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eeb0dcdd-4959-42a2-9904-198d4ed7fe8c")
+		)
+		(instances
+			(project "iMac_monitor"
+				(path "/b2252698-946e-4a33-bee4-5f89b222af6f"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
