@@ -4251,6 +4251,12 @@
 		(uuid "74ebd323-7550-494f-8abb-fde0180a8112")
 	)
 	(junction
+		(at 93.98 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75b7eae9-07bd-4ea3-8e34-c326d04658a7")
+	)
+	(junction
 		(at 100.33 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4261,6 +4267,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9338512c-7611-4160-b2f1-71ed65c2628e")
+	)
+	(junction
+		(at 93.98 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a25aafb5-0f9f-4528-b081-d9cbb91b70ba")
+	)
+	(wire
+		(pts
+			(xy 93.98 68.58) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0213eaac-2693-42e2-bba9-453d07dd2431")
 	)
 	(wire
 		(pts
@@ -4594,6 +4616,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 60.96) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fcd6590-db4f-48d5-a0e4-4a7e1e44e33d")
+	)
+	(wire
+		(pts
 			(xy 205.74 195.58) (xy 208.28 195.58)
 		)
 		(stroke
@@ -4794,6 +4826,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ad562a-fdbf-4f9f-b7c5-f4cc4f6496a4")
+	)
+	(wire
+		(pts
+			(xy 91.44 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a44b9f53-7875-4de9-99cd-623cc34ad3fe")
+	)
+	(wire
+		(pts
 			(xy 250.19 193.04) (xy 252.73 193.04)
 		)
 		(stroke
@@ -4811,6 +4863,16 @@
 			(type default)
 		)
 		(uuid "aaeedf91-73f3-42d1-8486-034935d5acd5")
+	)
+	(wire
+		(pts
+			(xy 93.98 63.5) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1a90c9-f767-4671-83a0-6ed3e0485722")
 	)
 	(wire
 		(pts
@@ -4901,6 +4963,16 @@
 			(type default)
 		)
 		(uuid "d23657d1-1f70-4525-a497-07d494426746")
+	)
+	(wire
+		(pts
+			(xy 93.98 60.96) (xy 93.98 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ccda90-11de-4bd1-a569-b3427b304dbe")
 	)
 	(wire
 		(pts
@@ -7341,6 +7413,84 @@
 			(project "iMac_monitor"
 				(path "/b2252698-946e-4a33-bee4-5f89b222af6f"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cde6ff9d-bd11-410f-af66-0f846dd7a2ce")
+		(property "Reference" "#PWR016"
+			(at 93.98 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "363e14fb-f712-43ab-91a8-f32f27b4bda8")
+		)
+		(instances
+			(project "iMac_monitor"
+				(path "/b2252698-946e-4a33-bee4-5f89b222af6f"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
